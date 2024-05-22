@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-<meta charset="UTF-8">
-<title>Inicio</title>
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<title>Inicio</title>
+		<link rel="stylesheet" href="estilos.css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	</head>
 <body>
+	<!-- Encabezado -->
 	<header>
 		<h1>Bienvenido a Programación Visual</h1>
 	</header>
-
-	<nav>
+	<!-- Menú de navegacion -->
+	<nav class="menu">
 		<ul>
-			<li><a href="index.html">Inicio</a></li>
-			<li><a href="https://www.fi.unju.edu.ar/" target="blank">Fi
+			<li><a class="nav-link" href="index.html">Inicio</a></li>
+			<li><a class="nav-link" href="https://www.fi.unju.edu.ar/" target="blank">Fi
 					Unju</a></li>
-			<li><a
+			<li><a class="nav-link"
 				href="https://virtual.unju.edu.ar/course/view.php?id=2540"
 				target="blank">Aula Virtual</a></li>
-			<li><a href="#sobre-nosotros">Sobre nosotros</a></li>
-			<li><a href="#contacto">Contacto</a></li>
+			<li><a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a></li>
+			<li><a class="nav-link" href="#contacto">Contacto</a></li>
+			<li><a class="nav-link" href="#form-cliente">Formulario Cliente</a></li>
 		</ul>
 	</nav>
-
-	<main>
-		<section id="section-one">
+	
+	<div class="espaciado"></div>
+	
+	<!-- Principal -->
+	<main class="principal">
+		<section class="seccion-principal">
 			<img alt="logopv" src="/images/logopv.png">
-			<h2>Clases</h2>
+			<h2 class="titulo-2">Clases</h2>
 			<p>Modalidad virtual</p>
-			<h3>Teoría</h3>
+			<h3 class="titulo-3">Teoría</h3>
 			<ul>
 				<li>Miércoles de 14 a 17</li>
 			</ul>
-			<h3>Práctica</h3>
+			<h3 class="titulo-3">Práctica</h3>
 			<ol>
 				<li>Comisión 1
 					<ul>
@@ -51,9 +58,9 @@
 			</ol>
 
 		</section>
-		<section id="section-two">
-			<h2>Contenido</h2>
-			<h3>SEMANA 1</h3>
+		<section class="seccion-principal">
+			<h2 class="titulo-2">Contenido</h2>
+			<h3 class="titulo-3">SEMANA 1</h3>
 			<div>
 				<p>Objetivos</p>
 				<p>
@@ -89,7 +96,7 @@
 			</div>
 			<div>
 				<p>Actividades</p>
-				<table border="1">
+				<table class="tabla" border="1">
 					<tr>
 						<th colspan="2">Planificación Semanal</th>
 					</tr>
@@ -122,7 +129,7 @@
 					</tr>
 				</table>
 			</div>
-			<h3>SEMANA 2</h3>
+			<h3 class="titulo-3">SEMANA 2</h3>
 			<div>
 				<p>Objetivos</p>
 				<p>
@@ -183,7 +190,7 @@
 					</tr>
 				</table>
 			</div>
-			<h3>SEMANA 3</h3>
+			<h3 class="titulo-3">SEMANA 3</h3>
 			<div>
 				<p>Objetivos</p>
 				<p>
@@ -215,9 +222,9 @@
 				</div>
 			</div>
 		</section>
-		<section id="section-three">
-			<h2>Clases de consulta</h2>
-			<table border="1">
+		<section class="seccion-principal">
+			<h2 class="titulo-2">Clases de consulta</h2>
+			<table class="tabla" border="1">
 				<tr>
 					<th>Profesor</th>
 					<th>Horario</th>
@@ -246,28 +253,31 @@
 			</table>
 		</section>
 	</main>
-
-	<aside>
+	<!-- Adicional -->
+	<aside class="adicional">
 		<p>Bibioteca Digital CID UNJu</p>
-		<a href="https://www.bidi.la/" target="blank"> <img
+		<a class="adicional-link" href="https://www.bidi.la/" target="blank"> <img class="adicional-img"
 			alt="CID-Ingenieria" src="/images/CID-Ingenieria.jpeg">
 		</a>
 		<p>Bibiotecas Digitales</p>
-		<a href="https://virtual.unju.edu.ar/bibliotecas/" target="blank">
-			<img alt="bibliodig" src="/images/bibliodig.png">
+		<a class="adicional-link" href="https://virtual.unju.edu.ar/bibliotecas/" target="blank">
+			<img class="adicional-img" alt="bibliodig" src="/images/bibliodig.png">
 		</a>
 	</aside>
-
+	
+	<div class="espaciado"></div>
+	
+	<!-- Pie de pagina -->
 	<footer>
 		<p>
 			© 2015-2023 | UNJu Virtual - Plataforma de Educación a Distancia
-			(EaD) |<a href="https://www.unju.edu.ar/" target="blank">Universidad
+			(EaD) |<a class="footer-link" href="https://www.unju.edu.ar/" target="blank"> Universidad
 				Nacional de Jujuy</a>
 		</p>
 		<ul>
-			<li><a href="https://www.unju.edu.ar/" target="blank">https://www.unju.edu.ar</a></li>
-			<li><a href="mailto:virtual@unju.edu.ar" target="blank">virtual@unju.edu.ar</a></li>
-			<li><a href="tel:0388-154708223" target="blank">0388 -
+			<li><a class="footer-link" href="https://www.unju.edu.ar/" target="blank">https://www.unju.edu.ar</a></li>
+			<li><a class="footer-link" href="mailto:virtual@unju.edu.ar" target="blank">virtual@unju.edu.ar</a></li>
+			<li><a class="footer-link" href="tel:0388-154708223" target="blank">0388 -
 					154708223</a></li>
 		</ul>
 	</footer>
