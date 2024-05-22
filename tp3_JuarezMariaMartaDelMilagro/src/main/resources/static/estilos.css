@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #F2F2F2;
+}
+
+header {
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	line-height: 100px;
+	padding: 10px;
+	background-color: #105484;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	color: #F2F2F2;
+	border-radius: 20px;
+}
+
+.menu {
+	background-color: #F2F2F2;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.menu ul li {
+	float: left;
+	list-style: none;
+	margin: 10px;
+	line-height: 30px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1), 2px 2px 5px
+		rgba(0, 0, 0, 0.7);
+	padding: 5px 15px;
+}
+
+.menu li:first-child {
+	margin-right: auto;
+}
+
+.menu li:hover {
+	background-color: #105484;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: #403E3F;
+	font-weight: 700;
+}
+
+.nav-link:hover {
+	color: #F2F2F2;
+}
+
+.espaciado {
+	clear: both;
+}
+
+main.principal {
+	padding: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.seccion-principal {
+	background-color: #88CADA;
+	color: #403E3F;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.adicional {
+	background-color: #D94848;
+	color: #F2F2F2;
+	padding: 20px;
+	width: 20%;
+	float: right;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.titulo-2 {
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.titulo-3 {
+	font-size: 20px;
+}
+
+.tabla {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.tabla th, .tabla td {
+	border: 1px solid #F2F2F2;
+	padding: 8px;
+	text-align: left;
+}
+
+.tabla th {
+	background-color: #105484;
+	color: #F2F2F2;
+}
+
+.tabla a {
+	color: #403E3F;
+	text-decoration: none;
+}
+
+.tabla a:hover {
+	text-decoration: underline;
+}
+
+.adicional-img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #105484;
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+footer p {
+	margin-bottom: 10px;
+}
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: 30px;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #F2F2F2;
+}
+
+.footer-link:hover {
+	color: black;
+}
+
+/*estilo del formulario*/
+form {
+	background-color: #F2F2F2;
+	padding: 20px;
+	border-radius: 20px;
+	color: #403E3F;
+}
+
+label {
+	display: block;
+	margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="tel"],
+	input[type="date"], input[type="password"], select, textarea {
+	width: 100%;
+	padding: 8px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	border: none;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type="checkbox"], input[type="radio"] {
+	margin-top: 10px;
+	margin-bottom: 16px;
+}
+
+input[type="checkbox"]+label, input[type="radio"]+label {
+	margin-left: 5px;
+}
+
+input[type="submit"] {
+	background-color: #105484;
+	color: #F2F2F2;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #88CADA;
+}
+
+textarea {
+	resize: vertical;
+}

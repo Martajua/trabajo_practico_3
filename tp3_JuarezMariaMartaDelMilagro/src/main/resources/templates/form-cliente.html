@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>FormularioCliente</title>
+		<link rel="stylesheet" href="estilos.css">
+	</head>
+	<body>
+		<!-- Encabezado -->
+		<header>
+			<h1></h1>
+		</header>
+		<!-- Menú de navegacion -->
+		<nav class="menu">
+			<ul>
+				<li><a class="nav-link" href="index.html">Inicio</a></li>
+				<li><a class="nav-link" href="https://www.fi.unju.edu.ar/" target="blank">Fi
+						Unju</a></li>
+				<li><a class="nav-link"
+					href="https://virtual.unju.edu.ar/course/view.php?id=2540"
+					target="blank">Aula Virtual</a></li>
+				<li><a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a></li>
+				<li><a class="nav-link" href="#contacto">Contacto</a></li>
+				<li><a class="nav-link" href="#form-cliente">Formulario Cliente</a></li>
+			</ul>
+		</nav>
+			<form name="input" action="" method="get">
+				<label for="dni">DNI</label>
+				<input type="number" id="dni" name="dni" placeholder="39931069" required/><br>
+				
+				<label for="nombre">Nombres</label>
+				<input type="text" id="nombre" name="nombre" placeholder="Juan Pablo" required><br>
+				
+				<label for="apellido">Apellidos</label>
+				<input type="text" id="apellido" name="apellido" placeholder="Gomez" required/><br>
+				
+				<label for="fechaNac">Fecha de nacimiento</label>
+				<input type="date" id="fachaNac" name="fechaNac" required/><br>
+				
+				<label for="genero">Genero</label>
+				<input type="radio" id="femenino" name="genero" value="Femenino">
+			 	<label for="femenino">Femenino</label>
+			 	
+			  	<input type="radio" id="masculino" name="genero" value="Masculino">
+			  	<label for="masculino">Masculino</label>
+			  	
+			  	<input type="radio" id="x" name="genero" value="X">
+			  	<label for="x">X</label><br>
+				
+				<label for="correo">Correo Electrónico</label>
+				<input type="email" id="correo" name="correo" placeholder="ejemplo@gmail.com" required/><br>
+				
+				<label for="domicilio">Domicilio</label>
+				<input type="text" id="domicilio" name="domicilio" placeholder="P. Sherman Calle Wallaby 42, Sidney" required/><br>
+				
+				<label for="provincia">Provincia</label>
+				<select id="provincia" required>
+					<option value="" Selected>Selecione una opcion</option>
+					<option value="Jujuy">Jujuy</option>
+					<option value="Salta">Salta</option>
+					<option value="Tucuman">Tucuman</option>
+					<option value="Cordoba">Cordoba</option>
+					<option value="Buenos Aires">Buenos Aires</option>
+					<option value="Corrientes">Corrientes</option>
+					<option value="Misiones">Misiones</option>
+				</select><br>
+				
+				<label for="numeroCel">Número de Celular</label>
+				<input type="tel" id="numeroCel" name="numeroCel" placeholder="388-5705777"/><br>
+				
+				<label>Seleccionar las categorías de interés</label>
+				
+				<input type="checkbox" id="vehicle1" name="categoria" value="Bike">
+			 	<label for="vehicle1"> I have a bike</label>
+			 	<input type="checkbox" id="vehicle2" name="categoria" value="Car">
+			 	<label for="vehicle2"> I have a car</label>
+			 	<input type="checkbox" id="vehicle3" name="categoria" value="Boat">
+			 	<label for="vehicle3"> I have a boat</label><br>
+				
+				<textarea id="sugerencia" name="sugerencia" rows="10" cols="30">
+					 Sugerencia para la empresa.
+				</textarea><br>
+				
+				<label for="pwd">Password</label>
+				<input type="password" id="pwd" name="pwd" placeholder="******" required/><br>
+				
+				<input type="checkbox" id="terminosCondiciones" name="terminosCondiciones" value="Acepto los terminos y condiciones" required/>
+				<label for="terminosCondiciones">Acepto los términos y condiciones</label><br>
+				
+				<input type="checkbox" id="infoRelativa" name="infoRelativa" value="Acepto recibir información relativa a la empresa"/>
+				<label for="infoRelativa">Acepto recibir información relativa a la empresa</label><br>
+			</form>
+		<!-- Pie de pagina -->
+		<footer>
+		<p>
+			© 2015-2023 | UNJu Virtual - Plataforma de Educación a Distancia
+			(EaD) |<a href="https://www.unju.edu.ar/" target="blank">Universidad
+				Nacional de Jujuy</a>
+		</p>
+		<ul>
+			<li><a class="footer-link" href="https://www.unju.edu.ar/" target="blank">https://www.unju.edu.ar</a></li>
+			<li><a class="footer-link" href="mailto:virtual@unju.edu.ar" target="blank">virtual@unju.edu.ar</a></li>
+			<li><a class="footer-link" href="tel:0388-154708223" target="blank">0388 -
+					154708223</a></li>
+		</ul>
+	</footer>
+		
+	</body>
+</html>
